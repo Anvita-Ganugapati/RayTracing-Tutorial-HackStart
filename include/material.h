@@ -1,7 +1,11 @@
 #ifndef __MATERIAL_H__
 #define __MATERIAL_H__
+#include "util/color.h"
 
-class Material {
+struct Material {
+
+    double m_ambient, m_diffuse, m_specular, m_shininess;
+    Color m_color;
 
 };
 
